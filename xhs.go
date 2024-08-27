@@ -7,8 +7,8 @@ import (
 )
 
 func Payload(str string) string {
-	key := []byte("0a9fw3m6qfll2dej")
-	iv := []byte("mhaqhnjmr0rsoo3o")
+	key := []byte("fn7cxhamzqet4ltw")
+	iv := []byte("3w5zacaub8dqv9zq")
 	enc := aesCbcEncrypt([]byte(base64.StdEncoding.EncodeToString([]byte(str))), key, iv)
 	return hex.EncodeToString(enc)
 }
