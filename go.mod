@@ -1,3 +1,3 @@
-module github.com/smalls0098/xhs_3des
+module github.com/smalls0098/xs
 
 go 1.18
